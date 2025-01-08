@@ -1,0 +1,111 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Sports League Table</title>  
+    <style>  
+        table {  
+            width: 100%;  
+            border-collapse: collapse;  
+        }  
+        th, td {  
+            border: 1px solid #ccc;  
+            padding: 8px;  
+            text-align: center;  
+        }  
+        th {  
+            background-color: #f2f2f2;  
+        }  
+        .highlight {  
+            font-weight: bold;  
+            background-color: #dff0d8; /* Light green for top 3 */  
+        }  
+    </style>  
+</head>  
+<body>  
+<h1>Sports League Table</h1>
+<table>  
+    <caption>2025 Sports Tournament League Table</caption>  
+    <colgroup>  
+        <col span="1">  
+        <col span="1" class="num-col">  
+        <col span="1" class="num-col">  
+        <col span="1" class="num-col">  
+        <col span="1" class="num-col">  
+        <col span="1" class="num-col">  
+    </colgroup>  
+    <thead>  
+        <tr>  
+            <th scope="col" id="team-name">Team Name</th>  
+            <th scope="col" id="matches-played">Matches Played</th>  
+            <th scope="col" id="wins">Wins</th>  
+            <th scope="col" id="losses">Losses</th>  
+            <th scope="col" id="draws">Draws</th>  
+            <th scope="col" id="points">Points</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+        <tr>  
+            <td class="highlight" headers="team-name">Warriors</td>  
+            <td headers="matches-played">10</td>  
+            <td headers="wins">8</td>  
+            <td headers="losses">1</td>  
+            <td headers="draws">1</td>  
+            <td headers="points">25</td>  
+        </tr>  
+        <tr>  
+            <td class="highlight" headers="team-name">Titans</td>  
+            <td headers="matches-played">10</td>  
+            <td headers="wins">7</td>  
+            <td headers="losses">2</td>  
+            <td headers="draws">1</td>  
+            <td headers="points">22</td>  
+        </tr>  
+        <tr>  
+            <td class="highlight" headers="team-name">Eagles</td>  
+            <td headers="matches-played">10</td>  
+            <td headers="wins">6</td>  
+            <td headers="losses">3</td>  
+            <td headers="draws">1</td>  
+            <td headers="points">19</td>  
+        </tr>  
+        <tr>  
+            <td headers="team-name">Panthers</td>  
+            <td headers="matches-played">10</td>  
+            <td headers="wins">4</td>  
+            <td headers="losses">5</td>  
+            <td headers="draws">1</td>  
+            <td headers="points">13</td>  
+        </tr>  
+        <tr>  
+            <td headers="team-name">Falcons</td>  
+            <td headers="matches-played">10</td>  
+            <td headers="wins">3</td>  
+            <td headers="losses">6</td>  
+            <td headers="draws">1</td>  
+            <td headers="points">10</td>  
+        </tr>  
+        <tr>  
+            <td headers="team-name">Dragons</td>  
+            <td headers="matches-played">10</td>  
+            <td headers="wins">2</td>  
+            <td headers="losses">7</td>  
+            <td headers="draws">1</td>  
+            <td headers="points">7</td>  
+        </tr>  
+    </tbody>  
+    <tfoot>  
+        <tr>  
+            <td colspan="1" headers="team-name">Total Matches Played</td>  
+            <td headers="matches-played">60</td>  
+            <td headers="wins">30</td>  
+            <td headers="losses">24</td>  
+            <td headers="draws">6</td>  
+            <td headers="points"></td>  
+        </tr>  
+    </tfoot>  
+</table>  
+
+</body>  
+</html>
